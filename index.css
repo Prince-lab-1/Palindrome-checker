@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(66, 4, 66);
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    justify-content: center;
+    top: 20vh;
+    left: 62vh;
+}
+.textbox{
+    position: relative;
+    padding: 2vh;
+    width: 30vh;
+    top: 10vh;
+    left: 4vh   ;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    border: solid 2px rgb(66, 4, 66);
+}
+.Check_btn{
+    position: relative;
+    padding: 2vh;
+    top: 10vh;
+    left: 4vh   ;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(66, 4, 66);
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.result{
+    position: relative;
+    top: 19vh;
+    left: 5vh;
+    font-family: arial;
+    margin: auto;
+}
