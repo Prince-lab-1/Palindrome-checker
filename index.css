@@ -7,6 +7,18 @@ body{
     background-color: rgb(66, 4, 66);
 }
 
+.header{
+    position:  relative;
+    color: aliceblue;
+    align-content: center;
+    text-align: center;
+    top: 5vh;
+    left: 60vh;
+    font-size: 3vh;
+    /* background-color: red; */
+    width: fit-content;
+    height: fit-content;
+}
 .container{
     position: absolute;
     background-color: white;
@@ -45,4 +57,7 @@ body{
     left: 5vh;
     font-family: arial;
     margin: auto;
+    text-transform: capitalize;
+    font-weight: bold;
+    
 }
